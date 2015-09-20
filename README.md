@@ -8,4 +8,5 @@ About:
  - SimpleService.java: Service impl
 
 Running:
-- get in {ip}:{port}/external/execute?repository={location_external_class}&&impl={impl_name}
+- deploy dynamic-services-servlet
+- get in {ip}:{port}/external/execute?repository={location_external_class}&impl={impl_name}
