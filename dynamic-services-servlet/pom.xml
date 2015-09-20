@@ -31,7 +31,7 @@
     </dependencies>
   
     <build>
-        <finalName>hello-world-payara</finalName>
+        <finalName>external-load</finalName>
     </build>
   
 </project>
