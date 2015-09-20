@@ -16,7 +16,9 @@ public class ExternalClassLoader extends ClassLoader {
     protected Class<?> findClass(String name) throws ClassNotFoundException {
         try {
             final byte[] classBytes = IOUtils.fileAsByte(new File(toClassFileName(name)));
-            return defineClass(name, classBytes, 0, classBytes.length);
+            final int initBytes = 0;
+            final int endBytes = classBytes.length;
+            return defineClass(name, classBytes, initBytes, endBytes);
         } catch (final IOException ex) {
             throw new ClassNotFoundException();
         }
