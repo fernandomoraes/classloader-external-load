@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Sep 20 00:07:17 BRT 2015:
+ Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instância a816c00e-014f-e8b8-4e1d-0000059bbaf0
+no diretório de banco de dados /tmp/gfembed5104725610475997651tmp/lib/databases/embedded_default 
+
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_40-b25
+user.dir=/mnt/sda1/sda1/labs/studies/hello-world-payara
+os.name=Linux
+os.arch=amd64
+os.version=3.16.0-31-generic
+derby.system.home=null
+Carregador de classe do banco de dados iniciado - derby.database.classpath=''
